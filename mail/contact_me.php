@@ -1,4 +1,7 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header('Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE');
+header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
 // Check for empty fields
 if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||
