@@ -167,7 +167,11 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  /*background-image: url("../img/header-bg.jpg");*/
+  /*background-image: url("../img/meng-ji-102492-unsplash_2k.jpg");*/
+  background-image: url("../img/garrett-patz-526367-unsplash-2k-crop3.jpg");
+  /*background-image: url("../img/casey-horner-339855-unsplash-2k.jpg");*/
+
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -188,6 +192,7 @@ header.masthead .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 header.masthead .intro-text .intro-heading {
@@ -196,6 +201,7 @@ header.masthead .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
 }
 
 @media (min-width: 768px) {
