@@ -63,6 +63,9 @@ section h3.section-subheading {
   font-size: 18px;
   padding: 20px 40px;
 }
+a.btn-xl {
+  box-shadow: 4px 3px 6px grey;
+}
 
 .btn-primary {
   background-color: #fed136;
@@ -72,7 +75,7 @@ section h3.section-subheading {
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #fec810 !important;
   border-color: #fec810 !important;
-  color: white;
+  color: royalblue;
 }
 
 .btn-primary:active, .btn-primary:focus {
