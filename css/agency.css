@@ -723,3 +723,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   width: 33%;
   align-items: center;
 }
+
+/******************* media query **************/
+@media (max-width: 576px){
+  .col-sm-4 {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
