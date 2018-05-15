@@ -698,3 +698,23 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+/**************** Customized styling ***************/
+.techLink {
+  display: block;
+  text-decoration: none;
+  color: #a3a3a3;
+  cursor: default;
+  text-align: center;
+}
+.techLink:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+.techIcon {
+  text-align: center;
+}
+
+.techIcon img {
+  width: 33%;
+}
