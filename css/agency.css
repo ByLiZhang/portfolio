@@ -699,14 +699,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
 }
 /**************** Customized styling ***************/
-.techLink {
+.row .techLink {
   display: block;
   text-decoration: none;
   color: #a3a3a3;
   cursor: default;
   text-align: center;
 }
-.techLink:hover {
+.row .techLink:hover {
   color: #111;
   text-decoration: none;
 }
@@ -717,4 +717,5 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .techIcon img {
   width: 33%;
+  vertical-align: middle;
 }
