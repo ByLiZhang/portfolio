@@ -699,6 +699,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
 }
 /**************** Customized styling ***************/
+.row>div {
+  padding: 10px 15px;
+}
+
 .row .techLink {
   display: block;
   text-decoration: none;
@@ -717,5 +721,5 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .techIcon img {
   width: 33%;
-  vertical-align: middle;
+  align-items: center;
 }
