@@ -46,6 +46,7 @@ section h3.section-subheading {
   margin-bottom: 75px;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -80,6 +81,15 @@ a.btn-xl {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+.btn-intro {
+  border: 2px solid #fff;
+  color: white;
+}
+.btn-intro:hover {
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
+  color: royalblue;
 }
 
 ::-moz-selection {
@@ -191,7 +201,7 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
-  font-style: italic;
+  /*font-style: italic;*/
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -214,7 +224,7 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
-    font-style: italic;
+    /*font-style: italic;*/
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
