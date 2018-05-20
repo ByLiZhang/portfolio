@@ -736,6 +736,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   width: 33%;
   align-items: center;
 }
+.emailContact {
+  font-style: normal;
+}
 
 /******************* media query **************/
 @media (max-width: 576px){
