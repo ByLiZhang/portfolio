@@ -711,7 +711,10 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
-/**************** Customized styling ***************/
+/*************************************** Customized styling *******************************/
+#mainNav .navbar-toggler:hover {
+  color: royalblue;
+}
 .row>div {
   padding: 10px 15px;
 }
