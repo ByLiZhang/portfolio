@@ -43,7 +43,7 @@ section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
+  margin-bottom: 20px;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
@@ -265,6 +265,7 @@ header.masthead .intro-text .intro-heading {
   transition: all ease 0.5s;
   opacity: 0;
   background: rgba(254, 209, 54, 0.9);
+  /*background: rgba(0, 0, 0, 0.5);*/
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -590,7 +591,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -711,7 +712,10 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
-/**************** Customized styling ***************/
+/*************************************** Customized styling *******************************/
+#mainNav .navbar-toggler:hover {
+  color: royalblue;
+}
 .row>div {
   padding: 10px 15px;
 }
