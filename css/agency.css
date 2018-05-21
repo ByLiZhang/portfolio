@@ -343,10 +343,11 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic;
   margin: 20px 0 30px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -368,8 +369,8 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
-  right: 25px;
-  width: 75px;
+  right: 30px;
+  width: 50px;
   height: 75px;
   cursor: pointer;
   background-color: transparent;
@@ -747,9 +748,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   color: royalblue;
 }
 .tech-list>a {
+  display: inline-block;
   font-size: 16px;
   padding: 2px 7px;
-  margin: 0 7px;
+  margin: 5px 7px;
   background-color: #eee;
 }
 .left-link {
