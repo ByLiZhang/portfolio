@@ -743,6 +743,15 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .emailContact {
   font-style: normal;
 }
+.tech-title{
+  color: royalblue;
+}
+.tech-list>a {
+  font-size: 16px;
+  padding: 2px 7px;
+  margin: 0 7px;
+  background-color: #eee;
+}
 .left-link {
   float: left;
 }
