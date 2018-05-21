@@ -743,7 +743,15 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .emailContact {
   font-style: normal;
 }
-
+.left-link {
+  float: left;
+}
+.right-link {
+  float: right;
+}
+.left-link:hover, .right-link:hover {
+  color: royalblue;
+}
 /******************* media query **************/
 @media (max-width: 576px){
   #skills .col-sm-4 {
