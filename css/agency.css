@@ -343,10 +343,11 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic;
   margin: 20px 0 30px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -368,8 +369,8 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
-  right: 25px;
-  width: 75px;
+  right: 30px;
+  width: 50px;
   height: 75px;
   cursor: pointer;
   background-color: transparent;
@@ -713,7 +714,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
 }
 /*************************************** Customized styling *******************************/
-#mainNav .navbar-toggler:hover {
+#mainNav .navbar-brand:hover, #mainNav .navbar-toggler:hover {
   color: royalblue;
 }
 .row>div {
@@ -743,7 +744,25 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .emailContact {
   font-style: normal;
 }
-
+.tech-title{
+  color: royalblue;
+}
+.tech-list>a {
+  display: inline-block;
+  font-size: 16px;
+  padding: 2px 7px;
+  margin: 5px 7px;
+  background-color: #eee;
+}
+.left-link {
+  float: left;
+}
+.right-link {
+  float: right;
+}
+.left-link:hover, .right-link:hover {
+  color: royalblue;
+}
 /******************* media query **************/
 @media (max-width: 576px){
   #skills .col-sm-4 {
