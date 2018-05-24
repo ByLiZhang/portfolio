@@ -43,9 +43,10 @@ section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
+  margin-bottom: 20px;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -63,6 +64,9 @@ section h3.section-subheading {
   font-size: 18px;
   padding: 20px 40px;
 }
+a.btn-xl {
+  box-shadow: 4px 3px 6px grey;
+}
 
 .btn-primary {
   background-color: #fed136;
@@ -72,11 +76,20 @@ section h3.section-subheading {
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #fec810 !important;
   border-color: #fec810 !important;
-  color: white;
+  color: royalblue;
 }
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+.btn-intro {
+  border: 2px solid #fff;
+  color: white;
+}
+.btn-intro:hover {
+  background-color: #fec810 !important;
+  border-color: #fec810 !important;
+  color: royalblue;
 }
 
 ::-moz-selection {
@@ -167,7 +180,11 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  /*background-image: url("../img/header-bg.jpg");*/
+  /*background-image: url("../img/meng-ji-102492-unsplash_2k.jpg");*/
+  background-image: url("../img/garrett-patz-526367-unsplash-2k-crop3.jpg");
+  /*background-image: url("../img/casey-horner-339855-unsplash-2k.jpg");*/
+
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -184,18 +201,20 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
-  font-style: italic;
+  /*font-style: italic;*/
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 header.masthead .intro-text .intro-heading {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 50px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.6);
 }
 
 @media (min-width: 768px) {
@@ -205,14 +224,14 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
-    font-style: italic;
+    /*font-style: italic;*/
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 75px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -246,6 +265,7 @@ header.masthead .intro-text .intro-heading {
   transition: all ease 0.5s;
   opacity: 0;
   background: rgba(254, 209, 54, 0.9);
+  /*background: rgba(0, 0, 0, 0.5);*/
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -323,10 +343,11 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic;
   margin: 20px 0 30px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -348,8 +369,8 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
-  right: 25px;
-  width: 75px;
+  right: 30px;
+  width: 50px;
   height: 75px;
   cursor: pointer;
   background-color: transparent;
@@ -363,7 +384,7 @@ header.masthead .intro-text .intro-heading {
   /* Safari and Chrome */
   z-index: 1051;
   width: 1px;
-  height: 75px;
+  height: 40px;
   margin-left: 35px;
   /* IE 9 */
   -webkit-transform: rotate(45deg);
@@ -376,7 +397,7 @@ header.masthead .intro-text .intro-heading {
   /* Safari and Chrome */
   z-index: 1052;
   width: 1px;
-  height: 75px;
+  height: 40px;
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -571,7 +592,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -691,4 +712,62 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+/*************************************** Customized styling *******************************/
+#mainNav .navbar-brand:hover, #mainNav .navbar-toggler:hover {
+  color: royalblue;
+}
+.row>div {
+  padding: 10px 15px;
+}
+
+.row .techLink {
+  display: block;
+  text-decoration: none;
+  color: #a3a3a3;
+  cursor: default;
+  text-align: center;
+}
+.row .techLink:hover {
+  color: #111;
+  text-decoration: none;
+}
+
+.techIcon {
+  text-align: center;
+}
+
+.techIcon img {
+  width: 33%;
+  align-items: center;
+}
+.emailContact {
+  font-style: normal;
+}
+.tech-title{
+  color: royalblue;
+}
+.tech-list>a {
+  display: inline-block;
+  font-size: 16px;
+  padding: 2px 7px;
+  margin: 5px 7px;
+  background-color: #eee;
+}
+.left-link {
+  float: left;
+}
+.right-link {
+  float: right;
+}
+.left-link:hover, .right-link:hover {
+  color: royalblue;
+}
+/******************* media query **************/
+@media (max-width: 576px){
+  #skills .col-sm-4 {
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
