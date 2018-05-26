@@ -763,6 +763,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .left-link:hover, .right-link:hover {
   color: royalblue;
 }
+.large {
+  font-size: 18px;
+  text-align: left;
+}
 /******************* media query **************/
 @media (max-width: 576px){
   #skills .col-sm-4 {
