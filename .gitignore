@@ -6,6 +6,7 @@ node_modules
 .vscode
 
 node_modules
-
 vendor
+
 mailDetails.php
+email_config.php
