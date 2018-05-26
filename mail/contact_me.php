@@ -22,6 +22,12 @@ if(empty($message['email'])){
     $output['success'] = false;
     $output['messages'][] = 'invalid email key';
 }
+//Sanitize phone field
+$message['phone'] = filter_var($_POST['phone'],FILTER_SANITIZE_STRING);
+if(empty($message['phone'])){
+    $message['phone'] = 'was not provided';
+}
+
 //Sanitaze message field
 $message['message'] = filter_var($_POST['message'],FILTER_SANITIZE_STRING);
 if(empty($message['message'])){
@@ -71,10 +77,11 @@ $mail->isHTML(true);                                  // Set email format to HTM
 //if you dont have a subject in your portfolio
 $message['subject'] = $message['name']." has sent you a message on your portfolio";
 // $message['subject'] = substr($message['message'],0,78);
+$message['message'] = $message['message'] . "\n\n" . 'Phone: '.$message['phone'] ;
 $message['message'] = nl2br($message['message']); //Convert newline characters to line break html tags
 $mail->Subject = $message['subject'];
 $mail->Body = $message['message'];//'This is the HTML message body <b>in bold!</b>';
-$mail->AltBody = htmlentities($message['message']);//'This is the body in plain text for non-HTML mail clients';
+$mail->AltBody = htmlentities($message['message'] .'Phone: '.$message['phone']);//'This is the body in plain text for non-HTML mail clients';
 //Attemp email send, output result to client
 if(!$mail->send()) {
     $output['success'] = false;
