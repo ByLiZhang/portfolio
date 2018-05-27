@@ -269,7 +269,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
+  opacity: 0.95;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -297,7 +297,7 @@ header.masthead .intro-text .intro-heading {
   margin: 0 auto;
   padding: 25px;
   text-align: center;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -756,9 +756,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 .left-link {
   float: left;
+  color: royalblue;
 }
 .right-link {
   float: right;
+  color: royalblue;
 }
 .left-link:hover, .right-link:hover {
   color: royalblue;
@@ -768,6 +770,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   text-align: left;
 }
 /******************* media query **************/
+@media (max-width: 768px){
+  #portfolio .portfolio-item .portfolio-caption {
+    background-color: #fff;
+  }
+}
 @media (max-width: 576px){
   #skills .col-sm-4 {
     -webkit-box-flex: 0;
