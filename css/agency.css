@@ -769,6 +769,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-size: 18px;
   text-align: left;
 }
+.projectSummary {
+  text-align: justify;
+}
 /******************* media query **************/
 @media (max-width: 768px){
   #portfolio .portfolio-item .portfolio-caption {
