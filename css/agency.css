@@ -772,6 +772,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .projectSummary {
   text-align: justify;
 }
+.footerNav:hover {
+  color: royalblue;
+  text-decoration: none;
+}
 /******************* media query **************/
 @media (max-width: 768px){
   #portfolio .portfolio-item .portfolio-caption {
