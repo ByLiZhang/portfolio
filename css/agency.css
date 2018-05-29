@@ -73,7 +73,7 @@ a.btn-xl {
   border-color: #fed136;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+.btn-primary:active:not([disabled]), .btn-primary:focus:not([disabled]), .btn-primary:hover:not([disabled]) {
   background-color: #fec810 !important;
   border-color: #fec810 !important;
   color: royalblue;
