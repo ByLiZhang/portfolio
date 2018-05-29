@@ -63,7 +63,7 @@
         <div class="intro-text">
           <div class="intro-heading text-uppercase">Li Zhang</div>
           <div class="intro-lead-in">Web Developer</div>
-          <a class="btn btn-intro btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Portfolio&nbsp&nbsp<i class="fa fa-chevron-down"></i></a>
+          <a class="btn btn-intro btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Portfolio&nbsp&nbsp<i class="fa fa-arrow-down"></i></a>
         </div>
       </div>   
     </header>
@@ -146,6 +146,11 @@
                 <li class="list-inline-item">
                   <a href="https://github.com/ByLiZhang" title="https://github.com/ByLiZhang" target="_blank">
                     <i class="fa fa-github"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="/LiZhang_Resume.pdf" title="Resume of Li Zhang" target="_blank">
+                    <i class="fa fa-file"></i>
                   </a>
                 </li>
               </ul>
@@ -400,7 +405,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" name="name" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+                    <input class="form-control" name="name" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name." pattern="\s*(\S\s*){2,}">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
@@ -449,10 +454,15 @@
                   <i class="fa fa-github"></i>
                 </a>
               </li>
+              <li class="list-inline-item">
+                <a href="/LiZhang_Resume.pdf" title="Resume of Li Zhang" target="_blank">
+                  <i class="fa fa-file"></i>
+                </a>
+              </li>
             </ul>
           </div>          
           <div class="col-md-4">
-            <a class="js-scroll-trigger footerNav" href="#page-top">Back to Top &nbsp;<i class="fa fa-chevron-up"></i></a>
+            <a class="js-scroll-trigger footerNav" href="#page-top">Back to Top &nbsp;<i class="fa fa-arrow-up"></i></a>
           </div>
         </div>
       </div>
@@ -613,7 +623,7 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
+    <script src="js/agency.js"></script>
 
   </body>
 
