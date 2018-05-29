@@ -31,6 +31,7 @@ $(function() {
         },
         cache: false,
         success: function(resp) {
+          resp = JSON.parse(resp);
           if (resp.success === true){
             // Success message
             $('#success').html("<div class='alert alert-success'>");
