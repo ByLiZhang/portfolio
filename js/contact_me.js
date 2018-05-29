@@ -8,10 +8,12 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
-      var name = $("input#name").val();
+      var name = $("input#name").val().trim();
+      console.log('name:', name);
       var email = $("input#email").val();
       var phone = $("input#phone").val();
-      var message = $("textarea#message").val();
+      var message = $("textarea#message").val().trim();
+      console.log('message:', message);
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
@@ -20,8 +22,8 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "/mail/contact_me.php", // Use this for deployment on server
-        // url: "http://localhost:8000/mail/contact_me.php", //Use localhost for testing
+        // url: "/mail/contact_me.php", // Use this for deployment on server
+        url: "http://localhost:8000/mail/contact_me.php", //Use localhost for testing
         type: "POST",
         data: {
           name: name,
